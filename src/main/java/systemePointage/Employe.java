@@ -21,7 +21,7 @@ public class Employe {
     private final Date dateEmbauche ;
     private final Date dateFinContrat;
     private final Salaire montantSalaire;
-    private Categorie category;
+    private Categorie categorie;
 
 
 

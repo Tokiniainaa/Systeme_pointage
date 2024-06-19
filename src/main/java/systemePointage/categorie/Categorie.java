@@ -13,7 +13,7 @@ public abstract sealed class  Categorie permits CadreSuperieur ,Normal,Gardien,C
     private final String nom;
     private int nombreHeureNormalParSemaine;
     private double salaireParSemaine;
-    private double indamnite;
+    private double indemnite;
 
     public abstract double calculIndamnite ();
 
