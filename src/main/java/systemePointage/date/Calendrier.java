@@ -1,5 +1,6 @@
 package systemePointage.date;
 
+import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -25,6 +26,10 @@ public class Calendrier {
             boolean estJourTravailGardien = !estFerie;
             calendrier.add(new Jour(date, estFerie,estWeekend));
         }
+    }
+    private boolean estWeekend(LocalDate date) {
+        DayOfWeek dayOfWeek = date.getDayOfWeek();
+        return dayOfWeek == DayOfWeek.SATURDAY || dayOfWeek == DayOfWeek.SUNDAY;
     }
 
 }
