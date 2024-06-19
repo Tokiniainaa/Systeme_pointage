@@ -1,6 +1,8 @@
 package systemePointage.categorie;
 
 import lombok.*;
+import systemePointage.NotImplemented;
+
 @Getter
 @Setter
 @ToString
@@ -11,4 +13,8 @@ public final class Gardien extends Categorie {
     }
 
 
+    @Override
+    public double calculIndamnite() {
+        throw new NotImplemented();
+    }
 }

@@ -4,6 +4,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+import systemePointage.NotImplemented;
 
 @Getter
 @Setter
@@ -14,4 +15,9 @@ public final class CadreSuperieur extends Categorie{
         super("CadreSuperieur", nombreHeureNormalParSemaine, salaireParSemaine, indamnite);
     }
 
+
+    @Override
+    public double calculIndamnite() {
+        throw new NotImplemented();
+    }
 }
