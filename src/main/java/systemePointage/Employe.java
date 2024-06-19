@@ -1,8 +1,8 @@
 package systemePointage;
 
 
-import systemePointage.categorie.Categorie;
 import lombok.*;
+import systemePointage.categorie.Categorie;
 
 import java.sql.Date;
 
