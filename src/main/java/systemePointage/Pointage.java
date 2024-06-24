@@ -1,4 +1,4 @@
-package systemePointage.date;
+package systemePointage;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -6,6 +6,8 @@ import lombok.Setter;
 import lombok.ToString;
 import systemePointage.Employe;
 import systemePointage.categorie.Gardien;
+import systemePointage.date.Calendrier;
+import systemePointage.date.Jour;
 
 import java.util.List;
 
